@@ -32,6 +32,44 @@ This is a Java-based customer login and registration system connected to an Orac
 
 - **Oracle JDBC Driver** (`ojdbc8.jar`) must be available in the classpath.
 
+Database Setup
+Ensure the Oracle Database is running and the following table exists:
+
+# Customer Registration & Login System
+
+## Project Overview
+
+This project allows users to register, login, update their information, and perform various actions on their profile in a customer database.
+
+## Prerequisites
+
+- **Java**: JDK 8 or later
+- **Oracle Database**: Version 12c or later
+- **Oracle JDBC Driver**: Required for connecting Java with Oracle Database
+- **IDE**: Any Java IDE (Eclipse, IntelliJ IDEA, etc.)
+
+## Setting Up the Database
+
+Ensure that your Oracle Database is running and that the following steps are followed to set up the `customer_login` table.
+
+### 1. **Start Oracle Database**
+
+Ensure that the Oracle Database is running. You can check this by connecting to the database using tools like SQL*Plus, SQL Developer, or any other database client.
+
+### 2. **Create the `customer_login` Table**
+
+To create the required table in the database, execute the following SQL query:
+
+```sql
+CREATE TABLE customer_login (
+    CUSTOMER_ID INT PRIMARY KEY,
+    CUSTOMER_NAME VARCHAR(50),
+    CUSTOMER_PASSWORD VARCHAR(50),
+    CUSTOMER_FNAME VARCHAR(50),
+    CUSTOMER_LNAME VARCHAR(50),
+    CUSTOMER_MAILID VARCHAR(100),
+    CUSTOMER_PHONENUMBER BIGINT
+);
 
 
 ## Feel free to modify any details according to your preferences or specific project settings.
