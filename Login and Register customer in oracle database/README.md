@@ -32,9 +32,3 @@ This is a Java-based customer login and registration system connected to an Orac
 
 - **Oracle JDBC Driver** (`ojdbc8.jar`) must be available in the classpath.
 
-## Setup
-
-### 1. Clone or Download the Project
-
-```bash
-git clone <>
