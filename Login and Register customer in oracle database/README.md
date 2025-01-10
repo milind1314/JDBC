@@ -72,4 +72,5 @@ CREATE TABLE customer_login (
 );
 
 
+
 ## Feel free to modify any details according to your preferences or specific project settings.
