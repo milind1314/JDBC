@@ -34,4 +34,4 @@ This is a Java-based customer login and registration system connected to an Orac
 
 
 
-Feel free to modify any details according to your preferences or specific project settings.
+## Feel free to modify any details according to your preferences or specific project settings.
